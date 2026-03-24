@@ -26,6 +26,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | Peptide domain AI | Train peptide optimization model from scratch on Mac Mini. 137 experiments overnight, 34.5% improvement | ThePeptideList | [Tweet](https://x.com/PeptideList/status/2035696873743278395) | [progress chart](https://x.com/PeptideList/status/2035696873743278395/photo/1) |
 | Ancient scroll ink detection | Vesuvius Challenge autoresearch agent swarm for ink detection models. 4 agents 24/7, cross-scroll generalization nearly doubled | Vesuvius Challenge | [Blog](https://scrollprize.substack.com/p/we-are-cooking) | [blog results](https://scrollprize.substack.com/p/we-are-cooking) |
 | Earth system model optimization | Hybrid: LLM proposes formula structures, TPE optimizes parameters. Fire correlation 0.09→0.65 | Dev Paragiri (UMD CS) | [Tweet](https://x.com/devparagiri/status/2035075626273739068) · [Blog](https://paragiri.com/blog/2026/autoresearch-earth-system-models/) | [blog results](https://paragiri.com/blog/2026/autoresearch-earth-system-models/) |
+| Bitcoin price formula discovery | Autonomous search for best time-based formula predicting Bitcoin price. 328 experiments, 50.5% RMSE improvement over power law. Walk-forward OOS evaluation with bootstrap significance testing | Carlos Baquero | [GitHub](https://github.com/CBaquero/BTCautoresearch) | [progress chart](https://github.com/CBaquero/BTCautoresearch/blob/main/fig_experiments.png) |
 
 ## Implementations & Forks
 
