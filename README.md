@@ -38,6 +38,9 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **autoresearch-win-rtx** | Windows + consumer RTX GPU port (RTX 2060 through 4090) | [GitHub](https://github.com/jsegov/autoresearch-win-rtx) |
 | **autoresearch-at-home** | Distributed autoresearch - SETI@home style. Multi-agent swarm coordination | [GitHub](https://github.com/mutable-state-inc/autoresearch-at-home) |
 | **autoresearch (Claude Skill)** | Generalized as a Claude Code skill for any domain | [GitHub](https://github.com/uditgoenka/autoresearch) |
+| **autoexperiment** | Hypothesis-driven loop with causal model output (theory.md + credit.json) | [GitHub](https://github.com/shyamsivakumar/autoexperiment) |
+| **autoadversary** | Two-agent adversarial loop preventing reward hacking | [GitHub](https://github.com/shyamsivakumar/autoadversary) |
+| **metaresearch** | Outer loop that optimizes program.md itself | [GitHub](https://github.com/shyamsivakumar/metaresearch) |
 
 ## Contributing
 
