@@ -37,6 +37,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **autoresearch-win-rtx** | Windows + consumer RTX GPU port (RTX 2060 through 4090) | [GitHub](https://github.com/jsegov/autoresearch-win-rtx) |
 | **autoresearch-at-home** | Distributed autoresearch - SETI@home style. Multi-agent swarm coordination | [GitHub](https://github.com/mutable-state-inc/autoresearch-at-home) |
 | **autoresearch (Claude Skill)** | Generalized as a Claude Code skill for any domain | [GitHub](https://github.com/uditgoenka/autoresearch) |
+| **agent-digivolve-harness** | A control layer for long-running CLI agent work. Generalizes the autoresearch keep/revert loop with persistent run state, explicit eval packages, baseline and holdout cases, and one bounded mutation per iteration | [GitHub](https://github.com/MatthewZMD/agent-digivolve-harness) |
 
 ## Contributing
 
