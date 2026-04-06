@@ -2,6 +2,7 @@
 
 A curated list of AutoResearch use cases **with optimization traces** and open source implementations. Every entry includes a link to the actual optimization trajectory so you can see what the agent tried, not just the final result.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts including deep research, OSINT, and multi-source investigation agents. MIT licensed.
 ## What is AutoResearch?
 
 AutoResearch is, at its core, a prompt. Karpathy released it as a single markdown file - `program.md`, that instructs a coding agent (Claude Code, Codex, or similar) to follow an optimization workflow. The agent edits one file (`train.py`, that trains a language model), runs for a fixed 5 minutes on a GPU, checks whether the metric improved, and either commits the change or reverts it. Then it loops forever.
