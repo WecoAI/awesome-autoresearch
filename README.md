@@ -39,6 +39,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **autoresearch (Claude Skill)** | Generalized as a Claude Code skill for any domain | [GitHub](https://github.com/uditgoenka/autoresearch) |
 | **agent-digivolve-harness** | A control layer for long-running CLI agent work. Generalizes the autoresearch keep/revert loop with persistent run state, explicit eval packages, baseline and holdout cases, and one bounded mutation per iteration | [GitHub](https://github.com/MatthewZMD/agent-digivolve-harness) |
 | **auto-agent** | Autoresearch, but for AI agents. Given a golden dataset, it autonomously improves a target agent through an iterative hypothesis-driven loop: analyze failures, spawn a coding agent to implement fixes, evaluate, and accept or rollback | [GitHub](https://github.com/alfonsograziano/auto-agent) |
+| **CORAL** | Multi-agent autoresearch with shared evolution. Spawns parallel Claude Code agents in isolated git worktrees that share a hub of attempts, notes, and reusable skills. Each agent reads a task guide, commits changes, triggers eval-on-commit, and loops — with cross-agent knowledge sharing as the core mechanism for open-ended discovery | [GitHub](https://github.com/Human-Agent-Society/CORAL) · [Paper](https://arxiv.org/pdf/2604.01658) |
 
 ## Contributing
 
