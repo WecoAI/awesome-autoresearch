@@ -40,6 +40,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **agent-digivolve-harness** | A control layer for long-running CLI agent work. Generalizes the autoresearch keep/revert loop with persistent run state, explicit eval packages, baseline and holdout cases, and one bounded mutation per iteration | [GitHub](https://github.com/MatthewZMD/agent-digivolve-harness) |
 | **auto-agent** | Autoresearch, but for AI agents. Given a golden dataset, it autonomously improves a target agent through an iterative hypothesis-driven loop: analyze failures, spawn a coding agent to implement fixes, evaluate, and accept or rollback | [GitHub](https://github.com/alfonsograziano/auto-agent) |
 
+| **The Factory** | Self-evolving, stateful meta-harness for autonomous software development and research. Go from a plain-English idea to a running, continuously improving project. Turn any existing codebase into an autoresearch project in one command — auto-discovers evals, generates the harness, starts keep/revert loops. Research mode wraps any metric into a full optimization loop with failure analysis, monotonic improvement, and leakage guards. Agents evolve their own playbooks from outcomes | [GitHub](https://github.com/akashgit/remote-factory) |
 ## Contributing
 
 Want to add a use case? Open a PR or [file an issue](https://github.com/WecoAI/awesome-autoresearch/issues).
