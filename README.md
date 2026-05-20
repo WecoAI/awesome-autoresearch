@@ -27,6 +27,12 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | Earth system model optimization | Hybrid: LLM proposes formula structures, TPE optimizes parameters. Fire correlation 0.09→0.65 | Dev Paragiri (UMD CS) | [Tweet](https://x.com/devparagiri/status/2035075626273739068) · [Blog](https://paragiri.com/blog/2026/autoresearch-earth-system-models/) | [blog](https://paragiri.com/blog/2026/autoresearch-earth-system-models/) |
 | Bitcoin price formula discovery | Autonomous search for best time-based formula predicting Bitcoin price. 328 experiments, 50.5% RMSE improvement over power law. Walk-forward OOS evaluation with bootstrap significance testing | Carlos Baquero | [GitHub](https://github.com/CBaquero/BTCautoresearch) | [progress chart](https://github.com/CBaquero/BTCautoresearch/blob/main/fig_experiments.png) |
 
+## Benchmarks & Evaluation
+
+| Benchmark | Description | Maintainer | Links | Traces |
+|-----------|-------------|------------|-------|--------|
+| **ResearchClawBench** | End-to-end scientific research benchmark for AI agents: agents read raw data and papers, write code, generate figures, and produce publication-style reports scored against expert checklists | InternScience | [GitHub](https://github.com/InternScience/ResearchClawBench) · [Dataset](https://huggingface.co/datasets/InternScience/ResearchClawBench) · [Leaderboard](https://internscience.github.io/ResearchClawBench-Home/) | [run traces](https://internscience.github.io/ResearchClawBench-Home/) |
+
 ## Implementations & Forks
 
 | Project | Description | Links |
