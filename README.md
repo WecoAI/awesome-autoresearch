@@ -28,6 +28,12 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | Bitcoin price formula discovery | Autonomous search for best time-based formula predicting Bitcoin price. 328 experiments, 50.5% RMSE improvement over power law. Walk-forward OOS evaluation with bootstrap significance testing | Carlos Baquero | [GitHub](https://github.com/CBaquero/BTCautoresearch) | [progress chart](https://github.com/CBaquero/BTCautoresearch/blob/main/fig_experiments.png) |
 | Protein folding architecture search | Codex `/goal` iterating SimplexFold (AlphaFold2-style model) on NanoFold benchmark for 150+ hours, searching topologically inspired architectures. 127 scored runs, best val C-alpha lDDT 0.4311 | Chris Hayduk (OpenAI) | [GitHub](https://github.com/ChrisHayduk/SimplexFold) · [Tweet](https://x.com/ChrisHayduk/status/2055757345506877759) | [progress chart](https://x.com/ChrisHayduk/status/2055757345506877759/photo/1) |
 
+## Benchmarks & Evaluation
+
+| Benchmark | Description | Maintainer | Links | Traces |
+|-----------|-------------|------------|-------|--------|
+| **ResearchClawBench** | End-to-end scientific research benchmark for AI agents: agents read raw data and papers, write code, generate figures, and produce publication-style reports scored against expert checklists | InternScience | [GitHub](https://github.com/InternScience/ResearchClawBench) · [Dataset](https://huggingface.co/datasets/InternScience/ResearchClawBench) · [Leaderboard](https://internscience.github.io/ResearchClawBench-Home/) | [run traces](https://internscience.github.io/ResearchClawBench-Home/) |
+
 ## Implementations & Forks
 
 | Project | Description | Links |
