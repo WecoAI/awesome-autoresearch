@@ -33,6 +33,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | Benchmark | Description | Maintainer | Links | Traces |
 |-----------|-------------|------------|-------|--------|
 | **ResearchClawBench** | End-to-end scientific research benchmark for AI agents: agents read raw data and papers, write code, generate figures, and produce publication-style reports scored against expert checklists | InternScience | [GitHub](https://github.com/InternScience/ResearchClawBench) · [Dataset](https://huggingface.co/datasets/InternScience/ResearchClawBench) · [Leaderboard](https://internscience.github.io/ResearchClawBench-Home/) | [run traces](https://internscience.github.io/ResearchClawBench-Home/) |
+| **FML-bench** | Controlled study of AI research agent strategies across 18 ML research tasks (10 domains), separating search strategy from execution infrastructure. Finds a simple greedy hill-climber nearly matches the best tree-search agent; performance tracks early convergence and focused exploration, not diversity or compute | NUS | [Paper](https://arxiv.org/abs/2605.17373) · [GitHub](https://github.com/qrzou/FML-bench) | [search dynamics](https://arxiv.org/abs/2605.17373) |
 
 ## Implementations & Forks
 
