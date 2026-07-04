@@ -63,3 +63,5 @@ To make our work easier, please make submissions as verifiable as possible:
 ## License
 
 [CC0 1.0](LICENSE)
+
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT-licensed, one-command install.
