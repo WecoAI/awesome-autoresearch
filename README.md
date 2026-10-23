@@ -39,6 +39,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 |-----------|-------------|------------|-------|--------|
 | **ResearchClawBench** | End-to-end scientific research benchmark for AI agents: agents read raw data and papers, write code, generate figures, and produce publication-style reports scored against expert checklists | InternScience | [GitHub](https://github.com/InternScience/ResearchClawBench) · [Dataset](https://huggingface.co/datasets/InternScience/ResearchClawBench) · [Leaderboard](https://internscience.github.io/ResearchClawBench-Home/) | [run traces](https://internscience.github.io/ResearchClawBench-Home/) |
 | **FML-bench** | Controlled study of AI research agent strategies across 18 ML research tasks (10 domains), separating search strategy from execution infrastructure. Finds a simple greedy hill-climber nearly matches the best tree-search agent; performance tracks early convergence and focused exploration, not diversity or compute | NUS | [Paper](https://arxiv.org/abs/2605.17373) · [GitHub](https://github.com/qrzou/FML-bench) | [search dynamics](https://arxiv.org/abs/2605.17373) |
+| **SciΠvot** | Benchmark of principal-investigator judgment at pivotal moments of autoresearch. 248 decisions come from senior researchers correcting LLM agents across 26 frontier projects in 6 fields. Frontier models lean toward the original LLM plan, and 4 of 5 score below chance | University of Maryland | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) · [Dataset](https://huggingface.co/datasets/sun1245/SciPIvot) · [Paper](https://arxiv.org/abs/2610.21082) | [results](https://autoresearch-factory.github.io/SciPIvot/) |
 
 ## Implementations & Forks
 
@@ -56,6 +57,8 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **evo** | A Claude Code plugin for autoresearch | [GitHub](https://github.com/evo-hq/evo) |
 | **Agon** | Research orchestrator as a Claude Code plugin: a topic → idea → proposal → experiment loop with scientist/coder/auditor roles, deployed across 10+ disciplines | [GitHub](https://github.com/AutoResearch-Factory/Agon) · [Paper](https://arxiv.org/abs/2606.24177) |
 | **AutoNumerics** | Autonomous multi-agent pipeline that writes, debugs, and validates classical PDE numerical solvers from a plain-language problem description, picking the right numerical method automatically | [GitHub](https://github.com/Daviddjddu/Autonumerics) · [Paper](https://arxiv.org/abs/2602.17607) |
+| **AutoSR** | Symbolic regression as a Claude Code plugin. A proposer and a reviewer search over Research States (candidate equation, motivation, probes, failed attempts, review) under MCTS. Recovers the exact laws on 3 cp3-bench tasks that 12 published SR systems did not solve | [GitHub](https://github.com/AutoResearch-Factory/AutoSR) · [Web app](https://autosr.app) · [Paper](https://arxiv.org/abs/2608.16876) |
+| **AgonAlpha** | Quant alpha discovery as a Claude Code plugin. A proposer writes and evaluates alpha expressions. A fresh-context reviewer reruns the evaluation and can veto. MCTS splits parallel budget across candidate lineages. 17 SPECTACULAR alphas from 60 WorldQuant BRAIN submissions | [GitHub](https://github.com/AutoResearch-Factory/AgonAlpha) · [Paper](https://arxiv.org/abs/2608.11250) |
 
 ## Contributing
 
