@@ -62,6 +62,7 @@ The specific `program.md` that ships with AutoResearch is written for one task: 
 | **STEER** | AI4R experiment framework for Cursor/Claude Code: connect an existing training project; agents edit and train under a frozen task/scorer contract with ledgers and human audit gates | [GitHub](https://github.com/xieyulai/steer) · [CIFAR example](https://github.com/xieyulai/steer-cifar) |
 | **AutoSR** | Symbolic regression as a Claude Code plugin. A proposer and a reviewer search over Research States (candidate equation, motivation, probes, failed attempts, review) under MCTS. Recovers the exact laws on 3 cp3-bench tasks that 12 published SR systems did not solve | [GitHub](https://github.com/AutoResearch-Factory/AutoSR) · [Web app](https://autosr.app) · [Paper](https://arxiv.org/abs/2608.16876) |
 | **AgonAlpha** | Quant alpha discovery as a Claude Code plugin. A proposer writes and evaluates alpha expressions. A fresh-context reviewer reruns the evaluation and can veto. MCTS splits parallel budget across candidate lineages. 17 SPECTACULAR alphas from 60 WorldQuant BRAIN submissions | [GitHub](https://github.com/AutoResearch-Factory/AgonAlpha) · [Paper](https://arxiv.org/abs/2608.11250) |
+| **Thoth** | Dashboard-first orchestration runtime for autoresearch on Claude Code and Codex, with durable runs, locked work items and reviewable verdicts | [GitHub](https://github.com/SeeleAI/Thoth) |
 
 ## Contributing
 
